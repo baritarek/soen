@@ -2,7 +2,7 @@
 
 /*Define the CSS property --> will be used all over*/
 :root{
-    --primary-color:deepskyblue;
+    --primary-color:skyblue;
 }
 *{
     box-sizing: border-box;
@@ -166,6 +166,46 @@ img{
 .btn:hover{
     transform: scale(0.98);
 }
+
+/*Background and Adding the colors to buttons*/
+.bg-primary, .btn-primary {
+    background-color: var(--primary-color);
+    color: white;
+}
+.bg-secondary, .btn-secondary {
+    background-color: darkblue;
+    color: white;
+}
+.bg-dark, .btn-dark {
+    background-color: black;
+    color: white;
+}
+.bg-light, .btn-light {
+    background-color: lightblue;
+    color: white;
+}
+
+/*TEXT SIZES OF BUTTON IN THE SHOW PREVIEW OF FRUITS AND VEGEIES*/
+.lead{
+    font-size: 20px;
+}
+.sm{
+    font-size: 1rem ;
+}
+.md{
+    font-size: 3rem;
+}
+.lg{
+    font-size: 3rem;
+}
+.xl{
+    font-size: 4rem;
+}
+
+.text-center{
+    text-align: center;
+}
+
 .flex{
     display: flex;
     /*between the flex item*/
@@ -254,4 +294,81 @@ img{
 }
 .p-55{
     padding: 4rem;
+}
+
+/*FOOTER */
+.footer{
+    background-color: var(--primary-color);
+    color: white;
+    height: 70px;
+}
+.footer a{
+    color: #ffff;
+    padding: 10px;
+    margin: 0 5px;
+}
+.footer p{
+    text-align: center;
+}
+.footer a:hover{
+    border-bottom: 2px #fff solid;
+}
+.footer .flex{
+    justify-content: space-between;
+}
+
+/*Social Media*/
+.socialmedia .grid{
+    grid-template-columns: repeat(3,1fr);
+}
+
+/*FOOD MENU CARD*/
+.cloud.grid{
+    grid-template-columns: 4fr 3fr;
+}
+
+
+/*FOOTER*/
+.footer a{
+    margin: 0 10px;
+}
+.footer .social a{
+    margin: 0 10px;
+}
+
+
+/*FOR THE TABLES AND IPHONE*/
+@media(max-width: 768px) {
+    .grid,
+    .showcase .grid,
+    .category .grid,
+    .cloud .grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .showcase{
+        height: auto;
+
+    }
+    .showcase-text {
+        text-align: center;
+        margin-top: 40px;
+    }
+    .showcase-form{
+        justify-self: center;
+        margin: auto;
+    }
+}
+@media(max-width: 500px) {
+    .navbar{
+        height: 110px;
+    }
+    .navbar .flex{
+        flex-direction: column;
+    }
+    .navbar ul{
+        padding: 10px;
+        background-color: deepskyblue;
+    }
 }
