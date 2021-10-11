@@ -1,0 +1,12 @@
+.name {
+    margin:80px auto;
+    }
+    table{
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .img-fluid{
+        height: 150px;
+        width: 150px;
+    }
