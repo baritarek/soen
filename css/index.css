@@ -640,7 +640,10 @@ input:focus {
 } */
 
 input[type="text"],
+input[type="description"],
 input[type="email2"],
+input[type="price"],
+input[type="unit"],
 input[type="password"] {
   width: 50%;
   margin: 8px 0;
