@@ -37,11 +37,8 @@ p {
 }
 img {
   width: 100%;
-<<<<<<< HEAD
 
   align-items: center;
-=======
->>>>>>> 0f8ccb2206ce02fc35780a0c8f16877a71c27ebb
 }
 /*Navbar styling*/
 .navbar {
@@ -71,7 +68,6 @@ img {
   background-color: var(--primary-color);
   color: white;
   position: relative;
-<<<<<<< HEAD
 }
 .showcase h1 {
   font-size: 40px;
@@ -111,47 +107,6 @@ img {
   outline: none;
 }
 
-=======
-}
-.showcase h1 {
-  font-size: 40px;
-}
-.showcase p {
-  margin: 20px 0;
-}
-.showcase.grid {
-  overflow: visible;
-  grid-template-columns: 55% 45%;
-  gap: 30px;
-}
-.showcase-form {
-  position: relative;
-  top: 60px;
-  height: 350px;
-  width: 400px;
-  padding: 40px;
-  z-index: 100;
-  justify-self: flex-end;
-}
-
-.showcase-form .form-control {
-  margin: 30px 0;
-}
-.showcase-form input[type="text"],
-.showcase-form input[type="email"],
-.showcase-form input[type="password"] {
-  border: 0;
-  border-bottom: 1px solid #b4becb;
-  width: 100%;
-  padding: 3px;
-  font-size: 16px;
-}
-
-.showcase-form input:focus {
-  outline: none;
-}
-
->>>>>>> 0f8ccb2206ce02fc35780a0c8f16877a71c27ebb
 /*.showcase::before,*/
 /*.showcase::after{*/
 /*    content:' ';*/
@@ -275,11 +230,7 @@ img {
 /*fr = fraction*/
 .grid {
   display: grid;
-<<<<<<< HEAD
   grid-template-columns: 1fr 1fr;
-=======
-  grid-template-columns: 2fr 1fr;
->>>>>>> 0f8ccb2206ce02fc35780a0c8f16877a71c27ebb
   gap: 20px;
   justify-content: center;
   align-items: center;
@@ -381,20 +332,12 @@ img {
 
 /*Social Media*/
 .socialmedia .grid {
-<<<<<<< HEAD
   grid-template-columns: repeat(3, 2fr);
-=======
-  grid-template-columns: repeat(3, 1fr);
->>>>>>> 0f8ccb2206ce02fc35780a0c8f16877a71c27ebb
 }
 
 /*FOOD MENU CARD*/
 .cloud.grid {
-<<<<<<< HEAD
   grid-template-columns: 3fr 1fr;
-=======
-  grid-template-columns: 4fr 3fr;
->>>>>>> 0f8ccb2206ce02fc35780a0c8f16877a71c27ebb
 }
 
 /*FOOTER*/
@@ -485,7 +428,6 @@ img {
 }
 .product .heading {
   font-size: 30px;
-<<<<<<< HEAD
 }
 
 /* SHOPPING CART */
@@ -516,36 +458,6 @@ img {
   position: relative;
   padding-top: 30px;
   margin-right: 60px;
-}
-.delete-btn,
-.like-btn {
-  display: inline-block;
-  cursor: pointer;
-}
-.delete-btn {
-  width: 18px;
-  height: 17px;
-}
-
-.like-btn {
-  position: absolute;
-  top: 9px;
-  left: 15px;
-  background: url("twitter-heart.png");
-  width: 60px;
-  height: 60px;
-  background-size: 2900%;
-  background-repeat: no-repeat;
-}
-
-.delete-btn,
-.like-btn {
-  display: inline-block;
-  cursor: pointer;
-}
-.delete-btn {
-  width: 18px;
-  height: 17px;
 }
 
 /* .is-active {
@@ -713,6 +625,4 @@ input[type="password"] {
 
 .img-fluid {
   width: 200px;
-=======
->>>>>>> 0f8ccb2206ce02fc35780a0c8f16877a71c27ebb
 }

@@ -24,12 +24,17 @@
         <h1 class="logo">Al-Sham</h1>
         <nav>
           <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="aisles/aisles.html">Aisles</a></li>
-            <li><a href="login.html">Login</a></li>
-            <li><a href="createAccount.html">Create Account</a></li>
-            <li><a href="admin.html">Admin</a></li>
-            <li><a href="cart.html">Cart</a></li>
+            <li><a href="/components/Pages/home.html">Home</a></li>
+            <li>
+              <a href="/components/Pages/aisles/aisles.html">Aisles</a>
+            </li>
+
+            <li><a href="/components/Pages/login.html">User login</a></li>
+            <li><a href="/components/Pages/admin.html">Admin</a></li>
+            <li>
+              <a href="/components/Pages/createAccount.html">Create account</a>
+            </li>
+            <li><a href="/components/Pages/cart.html">Cart</a></li>
           </ul>
         </nav>
       </div>
@@ -44,8 +49,12 @@
       <h1 class="heading">Our Eggs and Dairy Products</h1>
       <div class="box-container my-2 py-2">
         <div class="box">
-          <img src="new images 2/oeuf.jpeg" alt="Eggs" />
+          <img src="../../../images/eggsAndMilkImages/eggs.jpg" alt="Eggs" />
           <h3>Eggs</h3>
+          <details>
+            <li>Brown eggs are very rich and healthy</li>
+            <li>A great source of protien</li>
+          </details>
           <div class="price">$0.15 <span>tax not included</span></div>
           <div class="quantity">
             <span>Quantity: </span>
@@ -56,21 +65,53 @@
         </div>
         <!--TOMATOES-->
         <div class="box">
-          <img src="new images 2/milk.jpeg" alt="milk" />
+          <img src="../../../images/eggsAndMilkImages/milk.jpg" alt="milk" />
           <h3>Milk</h3>
           <div class="price">$2.50 <span>tax not included</span></div>
+          <details>
+            <li>Milk is very good for calcium intake</li>
+            <li>A great source of protien and bone strucutre</li>
+          </details>
           <div class="quantity">
             <span>Quantity: </span>
             <input type="number" min="1" max="100" value="1" />
-            <span>/Liter</span>
+            <span>/liter</span>
           </div>
           <a href="#" class="btn">add to cart</a>
         </div>
 
         <div class="box">
-          <img src="new images 2/butter.jpeg" alt="BUTTER" />
-          <h3>Butter</h3>
-          <div class="price">$0.99 <span>tax not included</span></div>
+          <img
+            src="../../../images/eggsAndMilkImages/icecream.jpg"
+            alt="Ice Crema"
+          />
+          <h3>Vanilla Ice Cream</h3>
+          <div class="price">$4.99 <span>tax not included</span></div>
+          <details>
+            <li>Vanilla is a great extract very rich and smooth</li>
+            <li>A rich flavour with a rich taste</li>
+          </details>
+          <div class="quantity">
+            <span>Quantity: </span>
+            <input type="number" min="1" max="100" value="1" />
+            <span>/unit</span>
+          </div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <img
+            src="../../../images/eggsAndMilkImages/chedderChesse.jpg"
+            alt="Chedder Cheese"
+          />
+          <h3>Chedder Cheese</h3>
+          <div class="price">$2.50 <span>tax not included</span></div>
+          <details>
+            <li>Chedder Cheese is very mild, creamy, and smooth.</li>
+            <li>
+              Cant be cooked in many dished , it is very buttery and moist
+            </li>
+          </details>
           <div class="quantity">
             <span>Quantity: </span>
             <input type="number" min="1" max="100" value="1" />
@@ -80,32 +121,36 @@
         </div>
 
         <div class="box">
-          <img src="new images 2/yogurt.jpeg" alt="yogurt" />
-          <h3>Natural 3.5% Yogurt</h3>
-          <div class="price">$2.50 <span>tax not included</span></div>
-          <div class="quantity">
-            <span>Quantity: </span>
-            <input type="number" min="1" max="100" value="1" />
-            <span>/Liter</span>
-          </div>
-          <a href="#" class="btn">add to cart</a>
-        </div>
-
-        <div class="box">
-          <img src="new images 2/creme.jpeg" alt="Creme" />
-          <h3>15% Creme</h3>
+          <img
+            src="../../../images/eggsAndMilkImages/qualieggs.jpg"
+            alt="Quail Eggsd"
+          />
+          <h3>Quail Eggs</h3>
           <div class="price">$1.15 <span>tax not included</span></div>
+          <details>
+            <li>
+              Quail eggs are really known for are their rich, deep yellow yolks.
+            </li>
+            <li>Typically are one-third the size of a standard chicken egg</li>
+          </details>
           <div class="quantity">
             <span>Quantity: </span>
-            <input type="number" min="1" max="100" value="1" />
-            <span>/Liter</span>
+            <input type="number" min="4" max="100" value="1" />
+            <span>/pack</span>
           </div>
           <a href="#" class="btn">add to cart</a>
         </div>
         <div class="box">
-          <img src="new images 2/fromage.jpeg" alt="cheese" />
-          <h3>Brie Cheese</h3>
+          <img
+            src="../../../images/eggsAndMilkImages/swissCheese.jpg"
+            alt="cheese"
+          />
+          <h3>Swisse Cheese</h3>
           <div class="price">$3.50 <span>tax not included</span></div>
+          <details>
+            <li>Swiss, its flavour is mild, sweet and nut-like</li>
+            <li>It has a savoury, but not very sharp taste.</li>
+          </details>
           <div class="quantity">
             <span>Quantity: </span>
             <input type="number" min="1" max="100" value="1" />
