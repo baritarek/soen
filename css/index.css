@@ -340,6 +340,10 @@ img {
   grid-template-columns: 3fr 1fr;
 }
 
+.hidden {
+  visibility: hidden;
+  height: 0;
+}
 /*FOOTER*/
 .footer {
   overflow: visible;
