@@ -1,4 +1,4 @@
 # soen
 
 -Grocery Name: Al Sham
--url:
+-proxy url: https://al-sham.netlify.app/
