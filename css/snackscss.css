@@ -1,0 +1,50 @@
+h1,
+h4,
+.snack_title,
+li {
+  font-family: sans-serif;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+h1 {
+  text-align: center;
+  font-size: medium;
+}
+h4 {
+  text-align: center;
+  font-size: small;
+}
+
+description {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.snack_title {
+  text-align: center;
+
+  text-transform: uppercase;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row.after {
+  content: "";
+  display: table;
+  clear: both;
+}
+li {
+  font-size: 20px;
+  font-family: sans-serif;
+}

@@ -15,21 +15,26 @@
       referrerpolicy="no-referrer"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Grocery Store</title>
+    <title>Al Sham</title>
   </head>
   <body>
     <!--Navbar-->
     <div class="navbar">
       <div class="container flex">
-        <h1 class="logo">Grocery Store</h1>
+        <h1 class="logo">Al Sham</h1>
         <nav>
           <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="aisles/aisles.html">Aisles</a></li>
-            <li><a href="login.html">User login</a></li>
-            <li><a href="productDescription.html">Product Description</a></li>
-            <li><a href="createAccount.html">Create account</a></li>
-            <li><a href="cart.html">Cart</a></li>
+            <li><a href="/components/Pages/home.html">Home</a></li>
+            <li>
+              <a href="/components/Pages/aisles/aisles.html">Aisles</a>
+            </li>
+
+            <li><a href="/components/Pages/login.html">User login</a></li>
+            <li><a href="/components/Pages/admin.html">Admin</a></li>
+            <li>
+              <a href="/components/Pages/createAccount.html">Create account</a>
+            </li>
+            <li><a href="/components/Pages/cart.html">Cart</a></li>
           </ul>
         </nav>
       </div>
@@ -44,9 +49,16 @@
       <h1 class="heading">Our Bakery and Pastry Section</h1>
       <div class="box-container my-2 py-2">
         <div class="box">
-          <img src="new images 2/baguette.jpeg" alt="Baguette" />
-          <h3>Baguette</h3>
+          <img src="../../../images/pastryImages/tirmasu.jpg" alt="tirmasu " />
+          <h3>Tirmasu Cake</h3>
           <div class="price">$0.99 <span>tax not included</span></div>
+          <details>
+            <li>Tiramisu is an elegant and rich layered Italian dessert</li>
+            <li>
+              Made with delicate ladyfinger cookies, espresso or instant
+              espresso,
+            </li>
+          </details>
           <div class="quantity">
             <span>Quantity: </span>
             <input type="number" min="1" max="100" value="1" />
@@ -56,9 +68,19 @@
         </div>
         <!--BAKERY AND PASTRY-->
         <div class="box">
-          <img src="new images 2/bagel.jpeg" alt="Bagel" />
-          <h3>Bagel</h3>
+          <img
+            src="../../../images/pastryImages/smallchocolate.jpg"
+            alt="Small Chocolate Cake"
+          />
+          <h3>Chocolate Mini Cakes</h3>
           <div class="price">$1.99 <span>tax not included</span></div>
+          <details>
+            <li>Super delicious, thick, delicious</li>
+            <li>Delicious, homemade</li>
+            <li>
+              rich, moist, mouth-watering, indigestible, scrumptious, gooey
+            </li>
+          </details>
           <div class="quantity">
             <span>Quantity: </span>
             <input type="number" min="1" max="100" value="1" />
@@ -68,13 +90,23 @@
         </div>
 
         <div class="box">
-          <img src="new images 2/loaf bread.jpeg" alt="LOAF BREAD" />
-          <h3>Loaf bread</h3>
+          <img
+            src="../../../images/pastryImages/cheescake.jpg"
+            alt="Strawberry Cake"
+          />
+          <h3>Strawberry Cake</h3>
           <div class="price">$4.99 <span>tax not included</span></div>
+          <details>
+            <li>Super delicious, thick Strawberry</li>
+            <li>Delicious, homemade</li>
+            <li>
+              rich, moist, mouth-watering, indigestible, scrumptious, gooey
+            </li>
+          </details>
           <div class="quantity">
             <span>Quantity: </span>
             <input type="number" min="1" max="100" value="1" />
-            <span>/Unit</span>
+            <span>/unit</span>
           </div>
           <a href="#" class="btn">add to cart</a>
         </div>
@@ -86,6 +118,11 @@
           />
           <h3>Chocolate Chip Cookie</h3>
           <div class="price">$0.99 <span>tax not included</span></div>
+          <details>
+            <li>Super delicious chocolate cookie</li>
+            <li>Oven Backed and homemade</li>
+            <li>rich and light</li>
+          </details>
           <div class="quantity">
             <span>Quantity: </span>
             <input type="number" min="1" max="100" value="1" />
@@ -98,6 +135,11 @@
           <img src="new images 2/chocolate_cake.jpeg" alt="CHOCOLATE CAKE" />
           <h3>Chocolate Cake with Chocolate Icing</h3>
           <div class="price">$5.99 <span>tax not included</span></div>
+          <details>
+            <li>Super delicious chocolate chocolate</li>
+            <li>Oven Backed and homemade</li>
+            <li>rich and heavy creamy taste</li>
+          </details>
           <div class="quantity">
             <span>Quantity: </span>
             <input type="number" min="1" max="100" value="1" />
@@ -109,6 +151,11 @@
           <img src="new images 2/croissant.jpeg" alt="CROISSANT" />
           <h3>Croissant</h3>
           <div class="price">$3.99 <span>tax not included</span></div>
+          <details>
+            <li>Super delicious oven baked Croissant</li>
+            <li>Oven Backed and homemade</li>
+            <li>Made with extra butter</li>
+          </details>
           <div class="quantity">
             <span>Quantity: </span>
             <input type="number" min="1" max="100" value="1" />
@@ -123,7 +170,7 @@
     <footer class="footer bg-dark py-5">
       <div class="container grid grid-3">
         <div>
-          <h1>Grocery store</h1>
+          <h1>Al Sham</h1>
           <p>Copyright &copy; 2021</p>
         </div>
         <nav>
