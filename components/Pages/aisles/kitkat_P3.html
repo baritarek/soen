@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<meta charset="UTF-8" />
+<meta
+  name="viewport"
+  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+/>
+<link rel="stylesheet" href="../../../css/index.css" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+  integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Al-Sham</title>
+<body>
+     <!--Navbar-->
+     <div class="navbar">
+        <div class="container flex">
+          <h1 class="logo">Al-Sham</h1>
+          <nav>
+            <ul>
+              <li><a href="/components/Pages/home.html">Home</a></li>
+              <li>
+                <a href="/components/Pages/aisles/aisles.html">Aisles</a>
+              </li>
+  
+              <li><a href="/components/Pages/login.html">User login</a></li>
+              <li><a href="/components/Pages/admin.html">Admin</a></li>
+              <li>
+                <a href="/components/Pages/createAccount.html">Create account</a>
+              </li>
+              <li><a href="/components/Pages/cart.html">Cart</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+<style>
+    html, body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        
+       }
+        
+       container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 15px;
+        display: flex;
+        overflow: auto;
+      }
+      
+      .left{
+        width: 65%;
+        position: relative;
+      }
+      
+      
+      .right{
+        width: 35%;
+        margin-top: 100px;
+        margin-left: 10px;
+        position: relative;
+      }
+      
+      .button {
+        border: None;
+        padding: 15px;
+        color: Black;
+        background-color: skyblue;
+        text-align: center;
+        cursor: pointer;
+        width: 45%;
+        font-size: 18px;
+        border-radius: 12px;
+        display: inline-block;
+        margin: 10px;
+        
+      }
+      .image {
+        border-style: solid;
+        border-color:skyblue;
+      }
+
+</style>
+
+<container>
+
+<div class="left">
+<div class="image">
+  <img src="../../../images/snackImages/kitkat.png" alt="Kitkat" style="width:100%">
+  </div>
+ </div>
+  
+<div class="right">
+	<div class="product-description">
+  	<h1>KitKat</h1>
+  	<p class="price">$0.99</p>
+ 	 <p>Kitkat 4-Finger Milk Chocolate Bar (45g)</p>
+      <span>Quantity: </span>
+      <input type="number" min="1" max="100" value="1">
+      <span>/unit</span>
+ 	 <a href="#" class="button">Add To Cart</a>
+	</div>
+</div>
+</container>
+
+<!--   FOOTER     -->
+<footer class="footer bg-dark py-6">
+    <div class="container grid grid-3">
+      <div>
+        <h1>Al-Sham</h1>
+        <p>Copyright &copy; 2021</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="home.html"></a>Home</li>
+          <li><a href="login.html"></a>Login</li>
+          <li><a href="createAccount.html"></a>Create Account</li>
+        </ul>
+      </nav>
+      <div class="social">
+        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
