@@ -14,6 +14,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script src="./aisles/addToCartFruits.js" async></script>
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Al-Sham</title>
   </head>
@@ -35,72 +36,88 @@
           </ul>
         </nav>
       </div>
-    </div>
+<style>
 
-    <div class="card">
-      <div class="row">
-          <div class="col-md-8 cart">
-              <div class="title">
-                  <div class="row">
-                      <div class="col">
-                          <h1><b>Al Sham Grocery Cart</b></h1>
-                      </div>
-                      <div class="col align-self-center text-right text-muted">Beverages Section</div>
-                      <hr>
-                  </div>
-              </div>
-              <div class="row border-top border-bottom">
-                  <div class="row main align-items-center">
-                      <div class="col-2"><img class="img-fluid" src="../../images/bevImages/cola.jpg"></div>
-                      <div class="col">
-                          <div class="row text-muted"> 1 x Cola &dollar; 2.99</div>
-                        
-                      </div>
-                    
-                  </div>
-              </div>
-              <div class="row border-top border-bottom">
-                  <div class="row main align-items-center">
-                      <div class="col-2"><img class="img-fluid" src="../../images/bevImages/ginger ale.jpg"></div>
-                      <div class="col">
-                          <div class="row text-muted"> 1 x Ginger ale  &dollar;3.00</div>
-                          <div class="row"></div>
-                      </div>
-                    
-                  </div>
-              
-                  <hr>
-                  <div class="row">
-                      <div class="col" style="padding-left:0;">Snack Section</div>
-                      <div class="row main align-items-center">
-                        <div class="col-2"><img class="img-fluid" src="../../images/snackImages/aero.jpeg"></div>
-                        <div class="col">
-                            <div class="row text-muted"> 10 x Aero &dollar;3.00</div>
-                            <div class="row"></div>
-                        </div>
-                      
-                    </div>
-                  </div>
-                  <hr>
-                  <form>
-                      <p>SHIPPING</p> <select>
-                          <option class="text-muted">Standard-Delivery- &dollar;5.00</option>
-                      </select>
-                      
-                  <div class="row" style="border-top: 1px solid rgba(0,0,0,.1); padding: 2vh 0;">
-                      <h4>Total Price before tax</h4>
-                      <div class="col text-right">&dollar; 15.00</div>
-                      <h4>Price after tax</h4>
-                      <div class="col text-right">GST &dollar; 3.00</div>
-                      <div class="col text-right">QST &dollar; 2.55</div>
+.navbar{
+  color:black;
+}
+.product-container{
+  max-width: 650px;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 50px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
 
-                      <h2>Total : &dollar; 20.55</h2>
-                  </div> 
-                  <div class="btn ">Checkout</div>
-              </div>
+.products-container ion-icon{
+  font-size: 25px;
+  color: red;
+  margin-left: 10px;
+  margin-right:10px;
+  cursor: pointer;
+}
+
+.product-header{
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 4px solid black;
+  margin: 0 auto;
+}
+
+.product-title{
+  width: 45%;
+}
+
+.price{
+  width: 15%;
+  
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: flex-start;
+}
+
+.quantity{
+  width: 30%;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  align-items: center;
+}
+
+.total{
+  width: 10%;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  align-items: center;
+}
+
+.product{
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+  padding:10px 0;
+  align-items: center;
+}
+
+</style>
+
+
+      <div class="product-container">
+          <div class="product-header">
+                <h5 class="product-title">PRODUCT</h5>
+                <h5 class="price">PRICE</h5>
+                <h5 class="quantity">QUANTITY</h5>
+                <h5 class="total">TOTAL</h5>
           </div>
+          <div class="products">
+          
+          </div>
+          
       </div>
-    </div>
 
     <section>
       <br>
