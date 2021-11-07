@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <link rel="stylesheet" href="../../../css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="addToCartBeverages.js" async></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Al-Sham</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <div class="navbar">
+      <div class="container flex">
+        <h1 class="logo">Al-Sham</h1>
+        <nav>
+          <ul>
+            <li><a href="/components/Pages/home.html">Home</a></li>
+            <li>
+              <a href="/components/Pages/aisles/aisles.html">Aisles</a>
+            </li>
+
+            <li><a href="/components/Pages/login.html">User login</a></li>
+            <li><a href="/components/Pages/admin.html">Admin</a></li>
+            <li>
+              <a href="/components/Pages/createAccount.html">Create account</a>
+            </li>
+            <li><a href="/components/Pages/cart.html">Cart</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <!--ShowCase-->
+    <section>
+      <div class="md text-center my-2">Beverages</div>
+    </section>
+
+    <section class="product my-2 py-2">
+      <h1 class="heading">Our latest Beverages</h1>
+      <div class="box-container my-2 py-2">
+        <div class="box">
+          <img
+            src="../../../images/bevImages/ginger ale.jpg"
+            alt="Ginger Ale"
+          />
+          <h3>Ginger Ale</h3>
+          <div class="price">$6 <span>tax not included</span></div>
+          <details>
+            <li>Ginger ale is made from actual Ginger</li>
+            <li>its main brands are Schweppes and Canada Dry</li>
+          </details>
+          <div class="quantity">
+            <span>Quantity: </span>
+            <input type="number" min="1" max="100" value="1" />
+            <span>/unit</span>
+          </div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+        <!--TOMATOES-->
+        <div class="box">
+          <img src="../../../images/bevImages/tea.jpg" alt="Tea" />
+          <h3>Tea</h3>
+          <div class="price">$6 <span>tax not included</span></div>
+          <details>
+            <li>Tea is one of the most popular drinks</li>
+            <li>there are many types of teas:green tea,early gray</li>
+          </details>
+          <div class="quantity">
+            <span>Quantity: </span>
+            <input type="number" min="1" max="100" value="1" />
+            <span>/unit</span>
+          </div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <img src="../../../images/bevImages/cola.jpg" alt="Cola" />
+          <h3>Cola</h3>
+          <div class="price">$6 <span>tax not included</span></div>
+          <details>
+            <li>Cola is the most popular soft drink in the grocery aisle</li>
+            <li>It has a great lasting taste</li>
+          </details>
+          <div class="quantity">
+            <span>Quantity: </span>
+            <input type="number" min="1" max="100" value="1" />
+            <span>/unit</span>
+          </div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <img
+            src="../../../images/bevImages/pexels-chevanon-photography-302899.jpg"
+            alt="Coffee"
+          />
+          <h3>Coffee</h3>
+          <div class="price">$6 <span>tax not included</span></div>
+          <details>
+            <li>100% Arabic Coffee</li>
+            <li>Pure and Natural Coffee</li>
+          </details>
+          <div class="quantity">
+            <span>Quantity: </span>
+            <input type="number" min="1" max="100" value="1" />
+            <span>/unit</span>
+          </div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <img
+            src="../../../images/bevImages/pexels-timur-weber-8679183.jpg"
+            alt="WaterMelon Juice"
+          />
+          <h3>WaterMelon Juice</h3>
+          <div class="price">$6 <span>tax not included</span></div>
+          <details>
+            <li>watermelon juice is made from watermelon</li>
+            <li>its fresh and natural no added sugar</li>
+          </details>
+          <div class="quantity">
+            <span>Quantity: </span>
+            <input type="number" min="1" max="100" value="1" />
+            <span>/unit</span>
+          </div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+          <img
+            src="../../../images/bevImages/pexels-photomix-company-96974.jpg"
+            alt="Onions"
+          />
+          <h3>Lemonade Juice</h3>
+          <div class="price">$6 <span>tax not included</span></div>
+          <details>
+            <li>lemonade is from actual lemonds</li>
+            <li>lemoande is fresh and natural and naturally squeezed</li>
+          </details>
+          <div class="quantity">
+            <span>Quantity: </span>
+            <input type="number" min="1" max="100" value="1" />
+            <span>/unit</span>
+          </div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+      </div>
+    </section>
+
+    <!--   FOOTER     -->
+    <footer class="footer bg-dark py-5">
+      <div class="container grid grid-3">
+        <div>
+          <h1>Al-Sham</h1>
+          <p>Copyright &copy; 2021</p>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="home.html"></a>Home</li>
+            <li><a href="login.html"></a>Login</li>
+            <li><a href="createAccount.html"></a>Create Account</li>
+          </ul>
+        </nav>
+        <div class="social">
+          <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+          <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+          <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

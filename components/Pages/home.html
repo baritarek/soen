@@ -1,141 +1,165 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="../../css/index.css">
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
-          integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
-          crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Grocery Store </title>
-</head>
-<body>
-        <!--Navbar-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <link rel="stylesheet" href="../../css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script type="text/javascript" src="../../javascript/addToCart.js"></script>
+    <script type="text/javascript" src="../../javascript/cart.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Al-Sham</title>
+  </head>
+  <body>
+    <!--Navbar-->
     <div class="navbar">
-        <div class="container flex">
-            <h1 class="logo">Grocery Store</h1>
-            <nav>
-                <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="aisles/aisles.html">Aisles</a></li>
-                    <li><a href="login.html">User login</a></li>
-                    <li><a href="productDescription.html">Product Description</a></li>
-                    <li><a href="createAccount.html">Create account</a></li>
-                    <li><a href="cart.html">Cart</a></li>
-                </ul>
-
-            </nav>
-        </div>
+      <div class="container flex">
+        <h1 class="logo">Al-Sham</h1>
+        <nav>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="aisles/aisles.html">Aisles</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="createAccount.html">Create Account</a></li>
+            <li><a href="admin.html">Admin</a></li>
+            <li><a href="cart.html">Cart</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
 
-
-<!--ShowCase-->
- <section class="showcase">
-     <div class="container grid">
-         <div class="showcase-text">
-             <h1>Food</h1>
-             <p>This is our grocery store</p>
-             <a href="aisles/aisles.html" class="btn btn-outline">Order Now</a>
-         </div>
-         <div class="showcase-form card">
-             <h2>Create account</h2>
-             <form>
-                 <div class="form-control">
-                     <input type="text" name="name" placeholder="First Name" required>
-                 </div>
-                 <div class="form-control">
-                     <input type="text" name="name" placeholder="Last Name" required>
-                 </div>
-                 <div class="form-control">
-                     <input type="email" name="name" placeholder="Email" required>
-                 </div>
-                 <input type="submit" value="Send" class ="btn btn-primary">
-             </form>
-         </div>
-     </div>
- </section>
-
-<!--Category-->
-<section class="category">
-    <div class="container">
-       <div class="md text-center my-2">
-           Shop by our sections
-       </div>
-        <div class="container flex">
-            <div class="card btn">
-                <h4>Meat</h4>
-                <i class="fas fa-drumstick-bite"></i>
-            </div>
-
-            <a href="aisles/fruitsAndVegetables.html" >
-            <div class="card btn">
-                <h4>Fruits and Vegetables</h4>
-                <i class="fas fa-apple-alt"></i>
-                <i class="fas fa-carrot"></i>
-            </div>
-            </a>
-            <div class="card btn">
-                <h4>Bread</h4>
-                <i class="fas fa-bread-slice"></i>
-            </div>
-
-            <div class="card btn">
-                <h4>Eggs and Dairy</h4>
-                <i class="fas fa-egg"></i>
-            </div>
-            <div class="card btn">
-                <h4>Fish</h4>
-                <i class="fas fa-fish"></i>
-            </div>
-
-
+    <!--ShowCase-->
+    <section class="showcase">
+      <div class="container grid">
+        <div class="showcase-text">
+          <h1>Food</h1>
+          <p>This is our Al-Sham Grocery</p>
+          <a href="aisles/aisles.html" class="btn btn-outline">Order Now</a>
         </div>
-
-    </div>
-</section>
-
-
-
-<!--FOOD SECTION PREVIEW-->
-        <section class="cloud bg-primary my-2 py-2">
-            <div class="container grid">
-                <div class="text-center">
-                    <h2 class="lg">Our Products</h2>
-                    <p class="lead my-1">
-                        Our Fresh made food  </p>
-                        <a  href="aisles/aisles.html" class="btn btn-dark">Shop now</a>
-
-                </div>
-                <!--  LIST OF THE FOOD-->
-                <img src="/images/fruitsAndVeges.jpg" alt="Fruits and Vegetables">
+        <div class="showcase-form card">
+          <h2>Create account</h2>
+          <form>
+            <div class="form-control">
+              <input
+                type="text"
+                name="name"
+                placeholder="First Name"
+                required
+              />
             </div>
-        </section>
+            <div class="form-control">
+              <input type="text" name="name" placeholder="Last Name" required />
+            </div>
+            <div class="form-control">
+              <input type="email" name="name" placeholder="Email" required />
+            </div>
+            <input type="submit" value="Send" class="btn btn-primary" />
+          </form>
+        </div>
+      </div>
+    </section>
 
+    <!--Category-->
 
-<!--   FOOTER     -->
-<footer class="footer bg-dark py-5">
-    <div class="container grid grid-3">
+    <section class="category">
+      <div class="container">
+        <div class="md text-center my-2">Shop by our sections</div>
+        <div class="container flex">
+          <a href="aisles/meatAndFish.html">
+            <div class="card btn">
+              <h4>Meat and Fish</h4>
+              <i class="fas fa-drumstick-bite"></i>
+            </div>
+          </a>
+
+          <a href="aisles/fruitsAndVegetables.html">
+            <div class="card btn">
+              <h4>Fruits and Vegetables</h4>
+              <i class="fas fa-apple-alt"></i>
+              <i class="fas fa-carrot"></i>
+            </div>
+          </a>
+
+          <a href="aisles/bread.html">
+            <div class="card btn">
+              <h4>Bread</h4>
+              <i class="fas fa-bread-slice"></i>
+            </div>
+          </a>
+
+          <a href="aisles/eggsAndDairy.html">
+            <div class="card btn">
+              <h4>Eggs and Dairy</h4>
+              <i class="fas fa-egg"></i>
+            </div>
+          </a>
+
+          <a href="aisles/pastryAndBakery.html">
+            <div class="card btn">
+              <h4>Pastry</h4>
+              <i class="fas fa-cookie"></i>
+            </div>
+          </a>
+
+          <a href="aisles/Snacks.html">
+            <div class="card btn">
+              <h4>Snacks</h4>
+              <i class="fas fa-candy-cane"></i>
+            </div>
+          </a>
+
+          <a href="aisles/beverages2.html">
+            <div class="card btn">
+              <h4>Beverages</h4>
+              <i class="fas fa-cocktail"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!--FOOD SECTION PREVIEW-->
+    <section class="cloud bg-primary my-2 py-2">
+      <div class="container grid">
+        <div class="text-center">
+          <h2 class="lg">Our Products</h2>
+          <p class="lead my-1">Our Fresh Grocery Store</p>
+          <a href="aisles/aisles.html" class="btn btn-dark">Shop now</a>
+        </div>
+        <!--  LIST OF THE FOOD-->
+        <img src="/images/fruitsAndVeges.jpg" alt="Fruits and Vegetables" />
+      </div>
+    </section>
+
+    <!--   FOOTER     -->
+    <footer class="footer bg-dark py-5">
+      <div class="container grid grid-3">
         <div>
-            <h1>Grocery store</h1>
-            <p>Copyright &copy; 2021</p>
+          <h1>Al-Sham</h1>
+          <p>Copyright &copy; 2021</p>
         </div>
         <nav>
-            <ul>
-                <li><a href="home.html"></a>Home</li>
-                <li><a href="login.html"></a>Login</li>
-                <li><a href="createAccount.html"></a>Create Account</li>
-            </ul>
+          <ul>
+            <li><a href="home.html"></a>Home</li>
+            <li><a href="login.html"></a>Login</li>
+            <li><a href="createAccount.html"></a>Create Account</li>
+          </ul>
         </nav>
         <div class="social">
-            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
-            <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
-            <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+          <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+          <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+          <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
         </div>
-    </div>
-</footer>
-
-</body>
+      </div>
+    </footer>
+  </body>
 </html>
