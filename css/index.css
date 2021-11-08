@@ -31,9 +31,8 @@ h2 {
   line-height: 1.2;
   margin: 10px 0;
 }
-h5{
+h5 {
   color: black;
-
 }
 p {
   margin: 10px 0;
@@ -48,21 +47,26 @@ img {
   background-color: var(--primary-color);
   color: white;
   height: 70px;
+  flex: auto;
 }
 .navbar ul {
   display: flex;
+  flex: auto;
 }
 .navbar a {
   color: #ffff;
   padding: 10px;
   margin: 0 5px;
+  flex: auto;
 }
 
 .navbar a:hover {
   border-bottom: 2px #fff solid;
+  flex: auto;
 }
 .navbar .flex {
   justify-content: space-between;
+  flex: auto;
 }
 
 /*ShowCase*/
@@ -110,22 +114,7 @@ img {
   outline: none;
 }
 
-/*.showcase::before,*/
-/*.showcase::after{*/
-/*    content:' ';*/
-/*    position: absolute;*/
-/*    height: 100px;*/
-/*    bottom: -70px;*/
-/*    right: 0;*/
-/*    left: 0;*/
-/*!*!*    the slant *!*!*/
-/*!*    background-color: red;*!*/
-/*!*    transform: skewY(-3deg);*!*/
-/*!*    -webkit-transform: skewY(-3deg);*!*/
-/*!*    -moz-transform: skewY(-3deg);*!*/
-/*!*    -ms-transform: skewY(-3deg);*!*/
-/*}*/
-/*Category*/
+/* Category */
 .category {
   padding-top: 30px;
 }
@@ -317,6 +306,8 @@ img {
   background-color: var(--primary-color);
   color: white;
   height: 70px;
+  min-width: 960px;
+  /* position: sticky; */
 }
 .footer a {
   color: #ffff;
@@ -397,12 +388,26 @@ img {
     margin: auto;
   }
 }
-@media (max-width: 500px) {
+@media only screen and (max-width: auto) {
   .navbar {
     height: 110px;
   }
   .navbar .flex {
     flex-direction: column;
+    position: fixed;
+  }
+  .navbar ul {
+    padding: 10px;
+    background-color: skyblue;
+  }
+}
+@media (max-width: auto) {
+  .navbar {
+    height: 110px;
+  }
+  .navbar .flex {
+    flex-direction: column;
+    position: fixed;
   }
   .navbar ul {
     padding: 10px;
