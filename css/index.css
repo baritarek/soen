@@ -31,9 +31,8 @@ h2 {
   line-height: 1.2;
   margin: 10px 0;
 }
-h5{
+h5 {
   color: black;
-
 }
 p {
   margin: 10px 0;
@@ -47,28 +46,12 @@ img {
 .navbar {
   background-color: var(--primary-color);
   color: white;
-  height: 100px;
-  
-}
-.navbar ul {
-  display: flex;
-  font-size: 12px;
-  
-}
-.navbar a {
-  color: #ffff;
-  padding: 4px;
-  margin: 0 3px;
-  
+
 }
 
 .navbar a:hover {
   border-bottom: 2px #fff solid;
-  
-}
-.navbar .flex {
-  justify-content: space-between;
- 
+
 }
 
 /*ShowCase*/
@@ -119,22 +102,7 @@ img {
   outline: none;
 }
 
-/*.showcase::before,*/
-/*.showcase::after{*/
-/*    content:' ';*/
-/*    position: absolute;*/
-/*    height: 100px;*/
-/*    bottom: -70px;*/
-/*    right: 0;*/
-/*    left: 0;*/
-/*!*!*    the slant *!*!*/
-/*!*    background-color: red;*!*/
-/*!*    transform: skewY(-3deg);*!*/
-/*!*    -webkit-transform: skewY(-3deg);*!*/
-/*!*    -moz-transform: skewY(-3deg);*!*/
-/*!*    -ms-transform: skewY(-3deg);*!*/
-/*}*/
-/*Category*/
+/* Category */
 .category {
   padding-top: 30px;
 }
@@ -329,7 +297,7 @@ img {
 .footer {
   background-color: var(--primary-color);
   color: white;
-  height: 100px;
+
 }
 .footer a {
   color: #ffff;
@@ -410,12 +378,26 @@ img {
     margin: auto;
   }
 }
-@media (max-width: 500px) {
+@media only screen and (max-width: auto) {
   .navbar {
     height: 110px;
   }
   .navbar .flex {
     flex-direction: column;
+    position: fixed;
+  }
+  .navbar ul {
+    padding: 10px;
+    background-color: skyblue;
+  }
+}
+@media (max-width: auto) {
+  .navbar {
+    height: 110px;
+  }
+  .navbar .flex {
+    flex-direction: column;
+    position: fixed;
   }
   .navbar ul {
     padding: 10px;
