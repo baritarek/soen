@@ -48,21 +48,26 @@ img {
   background-color: var(--primary-color);
   color: white;
   height: 70px;
+  overflow: hidden;
 }
 .navbar ul {
   display: flex;
+  overflow: hidden;
 }
 .navbar a {
   color: #ffff;
   padding: 10px;
   margin: 0 5px;
+  overflow: hidden;
 }
 
 .navbar a:hover {
   border-bottom: 2px #fff solid;
+  overflow: hidden;
 }
 .navbar .flex {
   justify-content: space-between;
+  overflow: hidden;
 }
 
 /*ShowCase*/
@@ -71,6 +76,7 @@ img {
   background-color: var(--primary-color);
   color: white;
   position: relative;
+  
 }
 .showcase h1 {
   font-size: 40px;
@@ -82,15 +88,17 @@ img {
   overflow: visible;
   grid-template-columns: 55% 45%;
   gap: 30px;
+  
 }
 .showcase-form {
   position: relative;
-  top: 60px;
+  top: 0px;
   height: 350px;
   width: 400px;
   padding: 40px;
   z-index: 100;
   justify-self: flex-end;
+  
 }
 
 .showcase-form .form-control {
@@ -313,10 +321,14 @@ img {
 }
 
 /*FOOTER */
+.bg-dark{
+  height: 700px;
+
+}
 .footer {
   background-color: var(--primary-color);
   color: white;
-  height: 70px;
+  height: 100px;
 }
 .footer a {
   color: #ffff;
